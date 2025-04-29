@@ -109,6 +109,14 @@ section h3.section-subheading {
 }
 
 /* Navegação */
+.container-navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030; /* valor alto pra ficar acima de tudo */
+}
+
+
 #mainNav {
   background-color: var(--dark-color);
   transition: all 0.3s ease;
